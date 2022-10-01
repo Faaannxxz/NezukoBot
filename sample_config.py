@@ -6,7 +6,7 @@ if path.exists("config.env"):
     load_dotenv("config.env")
 
 BOT_TOKEN = environ.get("5701341223:AAHQL19XLCpyNXHtHmoLDMAvirFYEKZbahc", None)
-API_ID = int(environ.get("14314614",)
+API_ID = int(environ.get("14314614", 6))
 API_HASH = environ.get("7f030d708946ee907bf0944c05c8cc09", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
 SUDO_USERS_ID = [int(x) for x in environ.get("5035563632", "").split()]
 LOG_GROUP_ID = int(environ.get("-1001729421519", None))
