@@ -104,22 +104,22 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo ❤️",
-                url="https://github.com/rozari0/NezukoBot",
+                text="𝙎𝙊𝙐𝙍𝘾𝙀 𝘾𝙊𝘿𝙀 ❤️",
+                url="https://github.com/Faaannxxz",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="𝙎𝙔𝙎𝙏𝙀𝙈 𝙎𝙏𝘼𝙏𝙎 🖥",
                 callback_data="stats_callback",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group⚡",
+                text="𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥⚡",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -127,9 +127,9 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
-    + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    f"𝙃𝙚𝙮 𝙩𝙝𝙚𝙧𝙚! 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 {BOT_NAME}. 𝙄 𝙘𝙖𝙣 𝙢𝙖𝙣𝙖𝙜𝙚 𝙮𝙤𝙪𝙧 "
+    + "𝙜𝙧𝙤𝙪𝙥 𝙬𝙞𝙩𝙝 𝙡𝙤𝙩𝙨 𝙤𝙛 𝙪𝙨𝙚𝙛𝙪𝙡 𝙛𝙚𝙖𝙩𝙪𝙧𝙚𝙨, 𝙛𝙚𝙚𝙡 𝙛𝙧𝙚𝙚 𝙩𝙤 "
+    + "𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥."
 )
 
 
@@ -137,17 +137,17 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
+                text="𝙃𝙀𝙇𝙋 ❓",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/rozari0/NezukoBot",
+                text="𝙍𝙀𝙋𝙊 🛠",
+                url="https://github.com/Faaannxxz",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="𝙎𝙔𝙎𝙏𝙀𝙈 𝙎𝙏𝘼𝙏𝙎 💻",
                 callback_data="stats_callback",
             ),
         ],
